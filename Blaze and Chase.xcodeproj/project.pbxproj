@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		171D7BAC225FDA6100EB4A57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D7BAB225FDA6100EB4A57 /* AppDelegate.swift */; };
+		171D7BAE225FDA6100EB4A57 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 171D7BAD225FDA6100EB4A57 /* GameScene.sks */; };
+		171D7BB0225FDA6100EB4A57 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 171D7BAF225FDA6100EB4A57 /* Actions.sks */; };
+		171D7BB2225FDA6100EB4A57 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D7BB1225FDA6100EB4A57 /* GameScene.swift */; };
+		171D7BB4225FDA6100EB4A57 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D7BB3225FDA6100EB4A57 /* GameViewController.swift */; };
+		171D7BB7225FDA6100EB4A57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171D7BB5225FDA6100EB4A57 /* Main.storyboard */; };
+		171D7BB9225FDA6200EB4A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 171D7BB8225FDA6200EB4A57 /* Assets.xcassets */; };
+		171D7BBC225FDA6200EB4A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 171D7BBA225FDA6200EB4A57 /* LaunchScreen.storyboard */; };
+		171D7BC7225FDA6200EB4A57 /* Blaze_and_ChaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D7BC6225FDA6200EB4A57 /* Blaze_and_ChaseTests.swift */; };
+		171D7BD2225FDA6200EB4A57 /* Blaze_and_ChaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 171D7BD1225FDA6200EB4A57 /* Blaze_and_ChaseUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		171D7BC3225FDA6200EB4A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171D7BA0225FDA6100EB4A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D7BA7225FDA6100EB4A57;
+			remoteInfo = "Blaze and Chase";
+		};
+		171D7BCE225FDA6200EB4A57 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 171D7BA0225FDA6100EB4A57 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 171D7BA7225FDA6100EB4A57;
+			remoteInfo = "Blaze and Chase";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		171D7BA8225FDA6100EB4A57 /* Blaze and Chase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Blaze and Chase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D7BAB225FDA6100EB4A57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		171D7BAD225FDA6100EB4A57 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		171D7BAF225FDA6100EB4A57 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		171D7BB1225FDA6100EB4A57 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		171D7BB3225FDA6100EB4A57 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		171D7BB6225FDA6100EB4A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		171D7BB8225FDA6200EB4A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		171D7BBB225FDA6200EB4A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		171D7BBD225FDA6200EB4A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171D7BC2225FDA6200EB4A57 /* Blaze and ChaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blaze and ChaseTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D7BC6225FDA6200EB4A57 /* Blaze_and_ChaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blaze_and_ChaseTests.swift; sourceTree = "<group>"; };
+		171D7BC8225FDA6200EB4A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		171D7BCD225FDA6200EB4A57 /* Blaze and ChaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Blaze and ChaseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		171D7BD1225FDA6200EB4A57 /* Blaze_and_ChaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blaze_and_ChaseUITests.swift; sourceTree = "<group>"; };
+		171D7BD3225FDA6200EB4A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		171D7BA5225FDA6100EB4A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BBF225FDA6200EB4A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BCA225FDA6200EB4A57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		171D7B9F225FDA6100EB4A57 = {
+			isa = PBXGroup;
+			children = (
+				171D7BAA225FDA6100EB4A57 /* Blaze and Chase */,
+				171D7BC5225FDA6200EB4A57 /* Blaze and ChaseTests */,
+				171D7BD0225FDA6200EB4A57 /* Blaze and ChaseUITests */,
+				171D7BA9225FDA6100EB4A57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		171D7BA9225FDA6100EB4A57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				171D7BA8225FDA6100EB4A57 /* Blaze and Chase.app */,
+				171D7BC2225FDA6200EB4A57 /* Blaze and ChaseTests.xctest */,
+				171D7BCD225FDA6200EB4A57 /* Blaze and ChaseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		171D7BAA225FDA6100EB4A57 /* Blaze and Chase */ = {
+			isa = PBXGroup;
+			children = (
+				171D7BAB225FDA6100EB4A57 /* AppDelegate.swift */,
+				171D7BAD225FDA6100EB4A57 /* GameScene.sks */,
+				171D7BAF225FDA6100EB4A57 /* Actions.sks */,
+				171D7BB1225FDA6100EB4A57 /* GameScene.swift */,
+				171D7BB3225FDA6100EB4A57 /* GameViewController.swift */,
+				171D7BB5225FDA6100EB4A57 /* Main.storyboard */,
+				171D7BB8225FDA6200EB4A57 /* Assets.xcassets */,
+				171D7BBA225FDA6200EB4A57 /* LaunchScreen.storyboard */,
+				171D7BBD225FDA6200EB4A57 /* Info.plist */,
+			);
+			path = "Blaze and Chase";
+			sourceTree = "<group>";
+		};
+		171D7BC5225FDA6200EB4A57 /* Blaze and ChaseTests */ = {
+			isa = PBXGroup;
+			children = (
+				171D7BC6225FDA6200EB4A57 /* Blaze_and_ChaseTests.swift */,
+				171D7BC8225FDA6200EB4A57 /* Info.plist */,
+			);
+			path = "Blaze and ChaseTests";
+			sourceTree = "<group>";
+		};
+		171D7BD0225FDA6200EB4A57 /* Blaze and ChaseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				171D7BD1225FDA6200EB4A57 /* Blaze_and_ChaseUITests.swift */,
+				171D7BD3225FDA6200EB4A57 /* Info.plist */,
+			);
+			path = "Blaze and ChaseUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		171D7BA7225FDA6100EB4A57 /* Blaze and Chase */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D7BD6225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and Chase" */;
+			buildPhases = (
+				171D7BA4225FDA6100EB4A57 /* Sources */,
+				171D7BA5225FDA6100EB4A57 /* Frameworks */,
+				171D7BA6225FDA6100EB4A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Blaze and Chase";
+			productName = "Blaze and Chase";
+			productReference = 171D7BA8225FDA6100EB4A57 /* Blaze and Chase.app */;
+			productType = "com.apple.product-type.application";
+		};
+		171D7BC1225FDA6200EB4A57 /* Blaze and ChaseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D7BD9225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and ChaseTests" */;
+			buildPhases = (
+				171D7BBE225FDA6200EB4A57 /* Sources */,
+				171D7BBF225FDA6200EB4A57 /* Frameworks */,
+				171D7BC0225FDA6200EB4A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D7BC4225FDA6200EB4A57 /* PBXTargetDependency */,
+			);
+			name = "Blaze and ChaseTests";
+			productName = "Blaze and ChaseTests";
+			productReference = 171D7BC2225FDA6200EB4A57 /* Blaze and ChaseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		171D7BCC225FDA6200EB4A57 /* Blaze and ChaseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 171D7BDC225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and ChaseUITests" */;
+			buildPhases = (
+				171D7BC9225FDA6200EB4A57 /* Sources */,
+				171D7BCA225FDA6200EB4A57 /* Frameworks */,
+				171D7BCB225FDA6200EB4A57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				171D7BCF225FDA6200EB4A57 /* PBXTargetDependency */,
+			);
+			name = "Blaze and ChaseUITests";
+			productName = "Blaze and ChaseUITests";
+			productReference = 171D7BCD225FDA6200EB4A57 /* Blaze and ChaseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		171D7BA0225FDA6100EB4A57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Elijah Calip";
+				TargetAttributes = {
+					171D7BA7225FDA6100EB4A57 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					171D7BC1225FDA6200EB4A57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 171D7BA7225FDA6100EB4A57;
+					};
+					171D7BCC225FDA6200EB4A57 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 171D7BA7225FDA6100EB4A57;
+					};
+				};
+			};
+			buildConfigurationList = 171D7BA3225FDA6100EB4A57 /* Build configuration list for PBXProject "Blaze and Chase" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 171D7B9F225FDA6100EB4A57;
+			productRefGroup = 171D7BA9225FDA6100EB4A57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				171D7BA7225FDA6100EB4A57 /* Blaze and Chase */,
+				171D7BC1225FDA6200EB4A57 /* Blaze and ChaseTests */,
+				171D7BCC225FDA6200EB4A57 /* Blaze and ChaseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		171D7BA6225FDA6100EB4A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D7BB7225FDA6100EB4A57 /* Main.storyboard in Resources */,
+				171D7BAE225FDA6100EB4A57 /* GameScene.sks in Resources */,
+				171D7BB9225FDA6200EB4A57 /* Assets.xcassets in Resources */,
+				171D7BBC225FDA6200EB4A57 /* LaunchScreen.storyboard in Resources */,
+				171D7BB0225FDA6100EB4A57 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BC0225FDA6200EB4A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BCB225FDA6200EB4A57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		171D7BA4225FDA6100EB4A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D7BB2225FDA6100EB4A57 /* GameScene.swift in Sources */,
+				171D7BB4225FDA6100EB4A57 /* GameViewController.swift in Sources */,
+				171D7BAC225FDA6100EB4A57 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BBE225FDA6200EB4A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D7BC7225FDA6200EB4A57 /* Blaze_and_ChaseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		171D7BC9225FDA6200EB4A57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				171D7BD2225FDA6200EB4A57 /* Blaze_and_ChaseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		171D7BC4225FDA6200EB4A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D7BA7225FDA6100EB4A57 /* Blaze and Chase */;
+			targetProxy = 171D7BC3225FDA6200EB4A57 /* PBXContainerItemProxy */;
+		};
+		171D7BCF225FDA6200EB4A57 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 171D7BA7225FDA6100EB4A57 /* Blaze and Chase */;
+			targetProxy = 171D7BCE225FDA6200EB4A57 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		171D7BB5225FDA6100EB4A57 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171D7BB6225FDA6100EB4A57 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		171D7BBA225FDA6200EB4A57 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				171D7BBB225FDA6200EB4A57 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		171D7BD4225FDA6200EB4A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		171D7BD5225FDA6200EB4A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		171D7BD7225FDA6200EB4A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and Chase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		171D7BD8225FDA6200EB4A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and Chase/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-Chase";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		171D7BDA225FDA6200EB4A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and ChaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-ChaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blaze and Chase.app/Blaze and Chase";
+			};
+			name = Debug;
+		};
+		171D7BDB225FDA6200EB4A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and ChaseTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-ChaseTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Blaze and Chase.app/Blaze and Chase";
+			};
+			name = Release;
+		};
+		171D7BDD225FDA6200EB4A57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and ChaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-ChaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blaze and Chase";
+			};
+			name = Debug;
+		};
+		171D7BDE225FDA6200EB4A57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Blaze and ChaseUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "annyeong.Blaze-and-ChaseUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Blaze and Chase";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		171D7BA3225FDA6100EB4A57 /* Build configuration list for PBXProject "Blaze and Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D7BD4225FDA6200EB4A57 /* Debug */,
+				171D7BD5225FDA6200EB4A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D7BD6225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and Chase" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D7BD7225FDA6200EB4A57 /* Debug */,
+				171D7BD8225FDA6200EB4A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D7BD9225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and ChaseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D7BDA225FDA6200EB4A57 /* Debug */,
+				171D7BDB225FDA6200EB4A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		171D7BDC225FDA6200EB4A57 /* Build configuration list for PBXNativeTarget "Blaze and ChaseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				171D7BDD225FDA6200EB4A57 /* Debug */,
+				171D7BDE225FDA6200EB4A57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 171D7BA0225FDA6100EB4A57 /* Project object */;
+}
